@@ -1,0 +1,42 @@
+.container-principal {
+    display: flex;
+    width: 90%;
+    height: 600px;    
+    flex-direction: row-reverse;
+}
+.img-container {
+    height: 100%;
+}
+.img-container div{
+    background-image: url("../images/image-header-desktop.jpg");
+}
+.descripcion-card {
+    width: 100%;
+    height: auto;
+    margin: 10% 70px 10% 30px;
+}
+.descripcion-card--title h1 {
+    text-align: left;
+    width: 105%;
+    font-size: 5.5rem;
+    line-height: 57px;
+}
+.descripcion-card--title p {
+    text-align: left;
+    width: 80%;
+    margin: 40px 28px 55px;
+    font-size: 2rem;
+}
+.descripcion-card--bot  {
+    display: flex;
+    margin-top: 86px;
+}
+.descripcion-card--bot p{
+    align-items: start;
+}
+.descripcion-card--bot span {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-left: 5px;
+    margin-top: 5px;
+}

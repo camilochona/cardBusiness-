@@ -1,0 +1,88 @@
+:root {
+    --very-dark-blue: hsl(233, 47%, 7%);
+    --dark-desaturated-blue: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --white: #ffffff;
+    --slightly: hsla(0, 0%, 100%, 0.75);
+    --slightly-soft: hsla(0, 0%, 100%, 0.6);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--very-dark-blue);
+}
+.container-principal{
+    margin: 50px auto 0;
+    width: 280px;
+    height: 750px;
+    background-color: var(--dark-desaturated-blue);
+    border-radius: 8px;
+}
+.img-container {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 40px;
+}
+.img-container div {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url("./images/image-header-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--soft-violet); 
+    background-blend-mode: multiply;
+    border-radius: 8px;
+}
+.descripcion-card {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+.descripcion-card .descripcion-card--title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.descripcion-card--title h1 {
+    color: var(--white);
+    font-size: 3rem;
+    margin: 0px 18px;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+.descripcion-card--title span {
+    color: var(--soft-violet);
+}
+.descripcion-card--title p {
+    color: var(--white);
+    font-size: 1.4rem;
+    margin: 0 11px;
+    width: 88%;
+    font-family: 'Inter', sans-serif;
+    color: var(--slightly);
+}
+
+.descripcion-card--bot p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: var(--white);
+    margin: 0 auto 40px;
+}
+.descripcion-card--bot span {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+    color: var(--slightly-soft);
+}
